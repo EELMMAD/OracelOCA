@@ -1,7 +1,8 @@
 package se.oracel.elmira.objectwiseTests.inheritance;
 
 public class TestClass1{
- public static void main(String args[] ){ A b = new B("good bye");  }
+ public static void main(String args[] ){
+  A b = new B("good bye");  }
 }
 class A{
  A() { this("hello", " world");  }
